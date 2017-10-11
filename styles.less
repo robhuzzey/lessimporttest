@@ -1,2 +1,24 @@
-// @import 'thisisinnodemodules/one/two/three/four/test';
-@import './one/two/three/four/test';
+/**
+* Comment out as appropriate to test each scenario.
+*/
+
+
+
+//=== Files in node_modules
+
+// This does NOT work
+@import 'thisisinnodemodules/one/two/three/four/test';
+
+
+// This DOES work (note the .less extension)
+// @import 'thisisinnodemodules/one/two/three/four/test.less';
+
+
+
+//=== Files in the project root
+
+// This DOES work
+// @import './one/two/three/four/test';
+
+// This ALSO DOES work
+// @import './one/two/three/four/test';
