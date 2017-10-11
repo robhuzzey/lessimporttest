@@ -1,0 +1,14 @@
+{
+  "name": "lessissue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildStyles": "lessc styles.less styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.0.0-alpha.3"
+  }
+}
