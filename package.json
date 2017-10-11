@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "less": "^3.0.0-alpha.3"
+    "less": "^2.7.2"
   }
 }
